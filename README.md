@@ -1,24 +1,25 @@
-# goit-markup-hw-01
-#1 zadanie domowe
+# goit-markup-hw-02<br> 
+ #2 zadanie domowe<br> 
+ 
+Projekt<br> 
+«A1» W katalogu głównym projektu znajduje się folder images z obrazami.
 
-Projekt
-«A1» Główny plik HTML ma nazwę index.html.
+«A2» W katalogu głównym projektu znajduje się folder css z plikami stylów.
 
-«A2» W katalogu głównym projektu znajduje się folder images z obrazami.
+«A3» Wszystkie style są zapisane w jednym pliku styles.css, który znajduje się w folderze css.
 
-«A3» W nazwach plików nie ma wielkich liter, spacji i transliteracji, a jedynie litery i słowa w języku angielskim.
+«A4» W nazwach plików nie ma wielkich liter, spacji i transliteracji, a jedynie litery i słowa w języku angielskim.
 
-«A4» Kod źródłowy jest sformatowany za pomocą Prettier.
+«A5» Kod źródłowy jest sformatowany za pomocą Prettier.
 
-«A5» Wszystkie obrazy i zawartość tekstowa są z układu.
+«A6» Wszystkie obrazy i zawartość tekstowa są z układu.
 
-«A6» Wszystkie zdjęcia są optymalizowane przy użyciu squoosh.
+«A7» Wszystkie mapy bitowe są optymalizowane przy użyciu squoosh.
 
-«A7» Kod jest napisany zgodnie z tutorialem.
+«A8» Kod jest napisany zgodnie z tutorialem.
 
 Znaczniki HTML
-
-«B1» Znaczniki HTML strony Studio są wpisywane w pliku index.html.
+«B1» Znaczniki HTML strony Portfolio wpisują się w pliku portfolio.html.
 
 «B2» Wykonane są znaczniki HTML wszystkich elementów układu.
 
@@ -26,26 +27,57 @@ Znaczniki HTML
 
 «B4» HTML jest weryfikowany przez walidator bez błędów.
 
-«B5» Znaczniki HTML zawierają tagi do podkreślania głównej struktury strony: header, main i footer.
+«B5» Nazwy klas są zrozumiałe dla innego programisty.
 
-«B6» Logo w header i stopce to link z tekstem, a nie obraz.
+«B6» Nazwy klas nie zawierają wielkich liter, spacji, transliteracji i nazw tagów, a jedynie litery i słowa w języku angielskim. Jeśli nazwa klasy składa się z kilku słów, są one oddzielone myślnikiem.
 
-«B7» Tag nav został użyty raz na stronie - w header.
+«B7» Atrybut href linków nawigacyjnych Studio i Portfolio zawiera względną ścieżkę do plików HTML tych stron. Kliknięcie linku powoduje przejście do odpowiedniej strony w bieżącej karcie przeglądarki.
 
-«B8» Kontakty w header (poczta i telefon) znajdują się poza tagiem nav.
+«B8» Tagi <img> mają atrybuty wymiarów, co najmniej width i height.
 
-«B9» Tag h1 został użyty jeden raz na stronie
+«B9» Obrazy są wyeksportowane z układu w formacie jpg.
 
-«B10» Element z tekstem "Zamów usługę" - to przycisk z type="button".
+«B10» Grupy elementów tego samego typu są gromadzone na listach <ul>.
 
-«B11» Nagłówki sekcji są oznaczone tagiem h2.
+«B11» Filtr na stronie Portfolio jest tworzony przez listę przycisków, z których każdy ma ustawiony atrybut type="button".
 
-«B12» Tagi img mają atrybuty wymiarów, co najmniej width i height.
+«B12» Znaczniki nagłówka i stopki są takie same na wszystkich stronach.
 
-«B13» Tagi img mają atrybut alt, który jest wypełniony krótkim opisem tego, co jest pokazane na obrazku.
+«B13» Wszystkie czcionki i ich odmiany wymagane dla układu (grubość i styl) są podłączone z usługi Google Fonts za pomocą jednego linku. Wymagana waga dla Raleway – 700, a dla Roboto – 400, 500, 700 i 900.
 
-«B14» Obrazy wyeksportowane z układu w formacie jpg.
+«B14» Wewnątrz znaczników przycisku nie ma żadnych dodatkowych elementów, takich jak spany lub linki.
 
-«B15» Grupy elementów tego samego typu są gromadzone na listach ul.
+Stylizacja
+«C1» Nie ma stylów globalnych dla elementów innych niż <body>.
 
-«B16» Tag address został użyty tylko w stopce.
+«C2» Do stylizacji służą selektory klasy.
+
+«C3» W stylach nie ma !important.
+
+«C4» Elementy interaktywne (przyciski i linki) po najechaniu myszką lub focusie z klawiatury mają stan aktywny wskazany w układzie (zmiana koloru).
+
+«С5» Tekst kontaktów w nagłówku i stopce zmienia kolor po najechaniu kursorem i focusie.
+
+«C6» Do przechowywania palety kolorów układu (tekst, tło, zaznaczenie) używane są zmienne CSS.
+
+«С7» Element <body> ma właściwość font-family z dominującą czcionką Roboto w układzie.
+
+«С8» Alternatywne opcje czcionek i typ rodziny (bezszeryfowa) są określone na końcu wyliczenia font-family dla elementu <body>.
+
+«С9» Rodzina czcionek Roboto jest wyraźnie określona tylko dla elementu <body>, pozostałe elementy go dziedziczą.
+
+«С10» Element <body> ma właściwość color z dominującym w układzie kolorem tekstu. Reszta tekstu dziedziczy lub zastępuje tę wartość.
+
+«С11» Rozmiar czcionki (właściwość font-size) wszystkich elementów tekstowych dokładnie odpowiada wartościom z układu.
+
+«С12» Wysokość wiersza (właściwość line-height) wszystkich elementów tekstowych dokładnie odpowiada wartościom z układu i jest określona jako mnożnik, a nie w px.
+
+«С13» Kolor (właściwość color) wszystkich elementów tekstowych dokładnie odpowiada wartościom z układu.
+
+«С14» Waga czcionki (właściwość font-weight) wszystkich elementów tekstowych dokładnie odpowiada wartościom z układu.
+
+«С15» Waga czcionki (właściwość font-weight) jest wyraźnie określona tylko wtedy, gdy wartość w układzie różni się od domyślnej dla tego elementu w przeglądarce.
+
+«С16» Przyciski mają określoną właściwość cursor z wartością pointer.
+
+«С17» W stylach nie powtarza się domyślnych wartości właściwości ustawionych przez przeglądarkę. Na przykład, linki nie muszą mieć cursor: pointer, akapity nie muszą mieć font-style: normal lub font-weight: 400.
