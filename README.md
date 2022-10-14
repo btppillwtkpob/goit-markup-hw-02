@@ -1,6 +1,7 @@
-# goit-markup-hw-02
- #2 zadanie domowe
-Projekt
+# goit-markup-hw-02<br> 
+ #2 zadanie domowe<br> 
+ 
+Projekt<br> 
 «A1» W katalogu głównym projektu znajduje się folder images z obrazami.
 
 «A2» W katalogu głównym projektu znajduje się folder css z plikami stylów.
