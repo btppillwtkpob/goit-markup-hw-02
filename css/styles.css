@@ -1,25 +1,101 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: "Raleway", sans-serif;
+  color: #757575;
+  font-family: "Raleway", serif;
   font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
 }
-.filter-list,
-.footer-list,
-.contact-list,
-.menu-list {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+  color: black;
+}
+input,
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+p {
+  font-style: normal;
+  font-weight: 400;
+}
+ul {
   list-style-type: none;
 }
-.filter-list input {
+.menu-list,
+.contact-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.logo:visited,
+.logo:link {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  color: #2196f3;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+}
+.logo-studio {
+  color: #000000;
+}
+
+.menu-list a:link,
+.menu-list a:visited {
+  color: #212121;
+}
+.menu-list a:hover,
+.menu-list a:focus {
+  color: #2196f3;
+}
+.filter-list input,
+.order-button {
   background: #f5f4fa;
   border-radius: 4px;
+  height: 38px;
+  border: 0px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
 }
 .filter-list input:focus,
-.filter-list input:hover {
+.filter-list input:hover,
+.order-button:focus,
+.order-button:hover {
   background: #2196f3;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   color: white;
-  cursor: pointer;
+}
+
+section.effective h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
 }
