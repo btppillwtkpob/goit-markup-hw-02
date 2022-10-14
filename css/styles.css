@@ -6,26 +6,14 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1em;
   letter-spacing: 0.03em;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-strong {
-  color: black;
-}
+
 input,
 a {
   cursor: pointer;
   text-decoration: none;
-}
-p {
-  font-style: normal;
-  font-weight: 400;
 }
 ul {
   list-style-type: none;
@@ -33,8 +21,7 @@ ul {
 .menu-list,
 .contact-list {
   font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1em;
   letter-spacing: 0.02em;
 }
 
@@ -46,10 +33,8 @@ ul {
   color: #2196f3;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 3em;
   /* identical to box height */
-
-  letter-spacing: 0.03em;
 }
 .logo-studio {
   color: #000000;
@@ -71,11 +56,10 @@ ul {
   border: 0px;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 2.5em;
   /* identical to box height, or 162% */
 
   text-align: center;
-  letter-spacing: 0.03em;
 
   color: #212121;
 }
@@ -90,12 +74,51 @@ ul {
   color: white;
 }
 
-section.effective h1 {
+section.effective p {
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1em;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
+}
+section.lorem strong {
+  font-weight: 700;
+  line-height: 1.2em;
+
+  text-transform: uppercase;
+}
+section.about p,
+section.team p {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 2em;
+  text-align: center;
+  color: #212121;
+}
+section figcaption {
+  font-size: 16px;
+  line-height: 3em;
+}
+section strong {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 2em;
+  /* identical to box height */
+
+  color: #212121;
+}
+ul.contact-list li:nth-child(1) a {
+  color: #2196f3;
+}
+ul.contact-list li a {
+  color: #757575;
+}
+
+.footer-list li:nth-child(1) a {
+  color: #ffffff;
+}
+.footer-list li a {
+  color: #757575;
 }
