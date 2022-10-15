@@ -10,12 +10,26 @@ body {
   letter-spacing: 0.03em;
 }
 
-input,
-a {
+a.logo,
+ul.menu-list a,
+ul.contact-list a,
+ul.footer-list a {
   cursor: pointer;
   text-decoration: none;
 }
-ul {
+.effective input,
+.filter-list input {
+  cursor: pointer;
+  text-decoration: none;
+}
+ul.filter-list,
+ul.footer-list,
+ul.portfolio-list,
+ul.menu-list,
+ul.contact-list,
+ul.team-list,
+ul.image-list,
+ul.lorem-list {
   list-style-type: none;
 }
 .menu-list,
@@ -76,7 +90,7 @@ ul {
 section.effective {
   background-color: #2f303a;
 }
-footer {
+footer.footer {
   background-color: #2f303a;
 }
 section.effective p {
