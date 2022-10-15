@@ -73,7 +73,12 @@ ul {
   border-radius: 4px;
   color: white;
 }
-
+section.effective {
+  background-color: #2f303a;
+}
+footer {
+  background-color: #2f303a;
+}
 section.effective p {
   font-weight: 900;
   font-size: 44px;
