@@ -14,38 +14,39 @@
     <title>Studio</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <a class="logo" href="./index.html"
-          >Web<span class="logo-studio">Studio</span></a
-        >
+    <header class="header">
+      <a class="logo" href="./index.html"
+        >Web<span class="logo-studio">Studio</span></a
+      >
+      <nav class="nav">
         <ul class="menu-list">
           <li><a href="#">Agencja</a></li>
           <li><a href="./portfolio.html">Portfolio</a></li>
           <li><a href="#">Kontakt</a></li>
         </ul>
+
+        <ul class="contact-list">
+          <li>
+            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li>
+            <a href="tel:+48111111111">+48 111 111 111</a>
+          </li>
+        </ul>
       </nav>
-      <ul class="contact-list">
-        <li>
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        </li>
-        <li>
-          <a href="tel:+48111111111">+48 111 111 111</a>
-        </li>
-      </ul>
     </header>
 
     <main>
       <ul class="filter-list">
-        <li><input type="button" value="Wszystkie" /></li>
-        <li><input type="button" value="Strony" /></li>
-        <li><input type="button" value="Aplikacje" /></li>
-        <li><input type="button" value="Dizajn" /></li>
-        <li><input type="button" value="Marketing" /></li>
+        <li><input class="filter-button" type="button" value="Wszystkie" /></li>
+        <li><input class="filter-button" type="button" value="Strony" /></li>
+        <li><input class="filter-button" type="button" value="Aplikacje" /></li>
+        <li><input class="filter-button" type="button" value="Dizajn" /></li>
+        <li><input class="filter-button" type="button" value="Marketing" /></li>
       </ul>
 
       <ul class="portfolio-list">
-        <li>
+        <li class="portfolio-list-element">
           <figure>
             <img
               src="./images/portfolio1.jpg"
@@ -54,11 +55,12 @@
               height="294"
             />
             <figcaption>
-              <strong>Technocrack</strong> Strona internetowa
+              <h5 class="portfolio-list-head-text">Technocrack</h5>
+              <p class="portfolio-list-paragraph">Strona internetowa</p>
             </figcaption>
           </figure>
         </li>
-        <li>
+        <li class="portfolio-list-element">
           <figure>
             <img
               src="./images/portfolio2.jpg"
@@ -67,11 +69,14 @@
               height="294"
             />
             <figcaption>
-              <strong>Grafika New Orlean vs Golden Star</strong> Dizajn
+              <h5 class="portfolio-list-head-text">
+                Grafika New Orlean vs Golden Star
+              </h5>
+              <p class="portfolio-list-paragraph">Dizajn</p>
             </figcaption>
           </figure>
         </li>
-        <li>
+        <li class="portfolio-list-element">
           <figure>
             <img
               src="./images/portfolio3.jpg"
@@ -80,11 +85,12 @@
               height="294"
             />
             <figcaption>
-              <strong>Restauracja Seafood</strong> Aplikacja
+              <h5 class="portfolio-list-head-text">Restauracja Seafood</h5>
+              <p class="portfolio-list-paragraph">Aplikacja</p>
             </figcaption>
           </figure>
         </li>
-        <li>
+        <li class="portfolio-list-element">
           <figure>
             <img
               src="./images/portfolio4.jpg"
@@ -92,10 +98,13 @@
               width="370"
               height="294"
             />
-            <figcaption><strong>Projekt Prime</strong> Marketing</figcaption>
+            <figcaption>
+              <h5 class="portfolio-list-head-text">Projekt Prime</h5>
+              <p class="portfolio-list-paragraph">Marketing</p>
+            </figcaption>
           </figure>
         </li>
-        <li>
+        <li class="portfolio-list-element">
           <figure>
             <img
               src="./images/portfolio5.jpg"
@@ -103,10 +112,13 @@
               width="370"
               height="294"
             />
-            <figcaption><strong>Projekt Boxes</strong> Aplikacja</figcaption>
+            <figcaption>
+              <h5 class="portfolio-list-head-text">Projekt Boxes</h5>
+              <p class="portfolio-list-paragraph">Aplikacja</p>
+            </figcaption>
           </figure>
         </li>
-        <li>
+        <li class="portfolio-list-element">
           <figure>
             <img
               src="./images/portfolio6.jpg"
@@ -115,11 +127,14 @@
               height="294"
             />
             <figcaption>
-              <strong>Inspiration has no Borders</strong> Strona internetowa
+              <h5 class="portfolio-list-head-text">
+                Inspiration has no Borders
+              </h5>
+              <p class="portfolio-list-paragraph">Strona internetowa</p>
             </figcaption>
           </figure>
         </li>
-        <li>
+        <li class="portfolio-list-element">
           <figure>
             <img
               src="./images/portfolio7.jpg"
@@ -128,11 +143,12 @@
               height="294"
             />
             <figcaption>
-              <strong>Magazyn Limited Edition</strong> Dizajn
+              <h5 class="portfolio-list-head-text">Magazyn Limited Edition</h5>
+              <p class="portfolio-list-paragraph">Dizajn</p>
             </figcaption>
           </figure>
         </li>
-        <li>
+        <li class="portfolio-list-element">
           <figure>
             <img
               src="./images/portfolio8.jpg"
@@ -140,10 +156,13 @@
               width="370"
               height="294"
             />
-            <figcaption><strong>Projekt LAB</strong> Marketing</figcaption>
+            <figcaption>
+              <h5 class="portfolio-list-head-text">Projekt LAB</h5>
+              <p class="portfolio-list-paragraph">Marketing</p>
+            </figcaption>
           </figure>
         </li>
-        <li>
+        <li class="portfolio-list-element">
           <figure>
             <img
               src="./images/portfolio9.jpg"
@@ -151,7 +170,10 @@
               width="370"
               height="294"
             />
-            <figcaption><strong>Growing Business</strong> Dizajn</figcaption>
+            <figcaption>
+              <h5 class="portfolio-list-head-text">Growing Business</h5>
+              <p class="portfolio-list-paragraph">Dizajn</p>
+            </figcaption>
           </figure>
         </li>
       </ul>
@@ -165,15 +187,18 @@
         <ul class="footer-list">
           <li>
             <a
+              class="footer-list"
               href="https://www.google.com/maps/place/al.+Jerozolimskie+21,+00-508+Warszawa/@52.2305286,20.9985222,14z/data=!4m13!1m7!3m6!1s0x471eccf3e52bee23:0xc5163bc7ec8d4437!2sal.+Jerozolimskie+21,+00-508+Warszawa!3b1!8m2!3d52.2305286!4d21.0160317!3m4!1s0x471eccf3e52bee23:0xc5163bc7ec8d4437!8m2!3d52.2305286!4d21.0160317"
-              ><strong>m. Warszawa, Aleje Jerozolimskie 21</strong></a
+              >m. Warszawa, Aleje Jerozolimskie 21</a
             >
           </li>
           <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="footer-list" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
           <li>
-            <a href="tel:+48111111111">+48 111 111 111</a>
+            <a class="footer-list" href="tel:+48111111111">+48 111 111 111</a>
           </li>
         </ul>
       </address>

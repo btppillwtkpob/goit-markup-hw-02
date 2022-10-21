@@ -10,66 +10,69 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="/css/styles.css" />
     <title>Studio</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <a class="logo" href="./index.html"
-          >Web<span class="logo-studio">Studio</span></a
-        >
+    <header class="header">
+      <a class="logo" href="./index.html"
+        >Web<span class="logo-studio">Studio</span></a
+      >
+      <nav class="nav">
         <ul class="menu-list">
           <li><a href="#">Agencja</a></li>
           <li><a href="./portfolio.html">Portfolio</a></li>
           <li><a href="#">Kontakt</a></li>
         </ul>
+
+        <ul class="contact-list">
+          <li>
+            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li>
+            <a href="tel:+48111111111">+48 111 111 111</a>
+          </li>
+        </ul>
       </nav>
-      <ul class="contact-list">
-        <li>
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        </li>
-        <li>
-          <a href="tel:+48111111111">+48 111 111 111</a>
-        </li>
-      </ul>
     </header>
 
-    <main>
-      <section class="effective">
-        <p>efektywne rozwiązania dla waszego biznesu</p>
-        <input class="order-button" type="button" value="Zamów usługę" />
+    <main class="main">
+      <section class="head-section">
+        <div class="head-section-text">
+          efektywne rozwiązania dla waszego biznesu
+        </div>
+        <input class="head-section-button" type="button" value="Zamów usługę" />
       </section>
 
       <section class="lorem">
         <ul class="lorem-list">
           <li>
-            <strong>LOREM IPSUM</strong>
-            <p>
+            <h4 class="lorem-head-text">LOREM IPSUM</h4>
+            <p class="lorem-paragraph">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
 
           <li>
-            <strong>LOREM IPSUM</strong>
-            <p>
+            <h4 class="lorem-head-text">LOREM IPSUM</h4>
+            <p class="lorem-paragraph">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
 
           <li>
-            <strong>LOREM IPSUM</strong>
-            <p>
+            <h4 class="lorem-head-text">LOREM IPSUM</h4>
+            <p class="lorem-paragraph">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
 
           <li>
-            <strong>LOREM IPSUM</strong>
-            <p>
+            <h4 class="lorem-head-text">LOREM IPSUM</h4>
+            <p class="lorem-paragraph">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
@@ -78,9 +81,9 @@
       </section>
 
       <section class="about">
-        <p>Czym się zajmujemy</p>
+        <div class="about-head-text">Czym się zajmujemy</div>
 
-        <ul class="image-list">
+        <ul class="about-list">
           <li>
             <img
               src="./images/keyboard.jpg"
@@ -109,9 +112,9 @@
       </section>
 
       <section class="team">
-        <p>Nasz zespół</p>
+        <div class="team-head-text">Nasz zespół</div>
         <ul class="team-list">
-          <li>
+          <li class="team-member">
             <figure>
               <img
                 src="./images/personone.jpg"
@@ -120,11 +123,12 @@
                 height="260"
               />
               <figcaption>
-                <strong>John Doe</strong> Product Designer
+                <h5 class="team-member-head-text">John Doe</h5>
+                <p class="team-member-paragraph">Product Designer</p>
               </figcaption>
             </figure>
           </li>
-          <li>
+          <li class="team-member">
             <figure>
               <img
                 src="./images/persontwo.jpg"
@@ -132,10 +136,13 @@
                 width="270"
                 height="260"
               />
-              <figcaption><strong>John Doe</strong> Front Developer</figcaption>
+              <figcaption>
+                <h5 class="team-member-head-text">John Doe</h5>
+                <p class="team-member-paragraph">Front Developer</p>
+              </figcaption>
             </figure>
           </li>
-          <li>
+          <li class="team-member">
             <figure>
               <img
                 src="./images/personthree.jpg"
@@ -143,10 +150,13 @@
                 width="270"
                 height="260"
               />
-              <figcaption><strong>John Doe</strong> Marketing</figcaption>
+              <figcaption>
+                <h5 class="team-member-head-text">John Doe</h5>
+                <p class="team-member-paragraph">Marketing</p>
+              </figcaption>
             </figure>
           </li>
-          <li>
+          <li class="team-member">
             <figure>
               <img
                 src="./images/personfour.jpg"
@@ -154,7 +164,10 @@
                 width="270"
                 height="260"
               />
-              <figcaption><strong>John Doe</strong> UI Designer</figcaption>
+              <figcaption>
+                <h5 class="team-member-head-text">John Doe</h5>
+                <p class="team-member-paragraph">UI Designer</p>
+              </figcaption>
             </figure>
           </li>
         </ul>
@@ -169,15 +182,18 @@
         <ul class="footer-list">
           <li>
             <a
+              class="footer-list"
               href="https://www.google.com/maps/place/al.+Jerozolimskie+21,+00-508+Warszawa/@52.2305286,20.9985222,14z/data=!4m13!1m7!3m6!1s0x471eccf3e52bee23:0xc5163bc7ec8d4437!2sal.+Jerozolimskie+21,+00-508+Warszawa!3b1!8m2!3d52.2305286!4d21.0160317!3m4!1s0x471eccf3e52bee23:0xc5163bc7ec8d4437!8m2!3d52.2305286!4d21.0160317"
-              ><strong>m. Warszawa, Aleje Jerozolimskie 21</strong></a
+              >m. Warszawa, Aleje Jerozolimskie 21</a
             >
           </li>
           <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="footer-list" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
           <li>
-            <a href="tel:+48111111111">+48 111 111 111</a>
+            <a class="footer-list" href="tel:+48111111111">+48 111 111 111</a>
           </li>
         </ul>
       </address>
