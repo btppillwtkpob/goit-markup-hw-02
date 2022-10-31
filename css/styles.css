@@ -182,11 +182,11 @@ ul.lorem-list {
   height: 19px;
   margin: 21.6px;
 }
-.team-member figure {
+.team-member-figure {
   margin: auto;
   height: 368px;
 }
-.team-member figcaption {
+.team-member-figcaption {
   height: 108px;
 }
 
@@ -242,11 +242,11 @@ ul.lorem-list {
   margin: 14.6px;
   margin: auto;
 }
-.portfolio-list figure {
+.portfolio-list-figure {
   margin: auto;
   height: 368px;
 }
-.portfolio-list figcaption {
+.portfolio-list-figcaption {
   height: 108px;
 }
 /* FOOTER SECTION */
@@ -256,6 +256,7 @@ ul.lorem-list {
 }
 
 .footer-list {
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 171%;
