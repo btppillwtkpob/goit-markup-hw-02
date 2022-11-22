@@ -23,25 +23,26 @@ body {
 }
 
 /* SECTION LINKS AND LISTS */
-a.logo,
-ul.menu-list a:link,
-ul.menu-list a:visited,
-ul.contact-list a,
-ul.footer-list a,
+.logo,
+.menu-list-link:link,
+.menu-list-link:visited,
+.contact-list-link,
+.footer-list-link:link,
+.footer-list-link:visited,
 .head-section-button,
-.filter-list input {
+.filter-button {
   cursor: pointer;
   text-decoration: none;
 }
 
-ul.filter-list,
-ul.footer-list,
-ul.portfolio-list,
-ul.menu-list,
-ul.contact-list,
-ul.team-list,
-ul.about-list,
-ul.lorem-list {
+.filter-list,
+.footer-list,
+.portfolio-list,
+.menu-list,
+.contact-list,
+.team-list,
+.about-list,
+.lorem-list {
   list-style-type: none;
 }
 /* LOGO */
@@ -59,7 +60,7 @@ ul.lorem-list {
 .header {
   background-color: var(--first-white);
 }
-.menu-list a {
+.menu-list-link {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -67,11 +68,11 @@ ul.lorem-list {
   letter-spacing: 0.02em;
   color: var(--secondary-black);
 }
-.menu-list a:hover,
-.menu-list a:focus {
+.menu-list-link:hover,
+.menu-list-link:focus {
   color: var(--blue-color);
 }
-.contact-list a {
+.contact-list-link {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -79,8 +80,8 @@ ul.lorem-list {
   letter-spacing: 0.02em;
   color: var(--main-color);
 }
-.contact-list a:hover,
-.contact-list a:focus {
+.contact-list-link:hover,
+.contact-list-link:focus {
   color: var(--blue-color);
 }
 
@@ -255,7 +256,7 @@ ul.lorem-list {
   height: 252px;
 }
 
-.footer-list {
+.footer-list-link {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -263,7 +264,7 @@ ul.lorem-list {
   letter-spacing: 0.03em;
   color: var(--semi-white-color);
 }
-.footer-list:hover,
-.footer-list:focus {
+.footer-list-link:hover,
+.footer-list-link:focus {
   color: var(--first-white);
 }
